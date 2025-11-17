@@ -110,5 +110,9 @@
         padding: 20px 30px;
     }
 
+    .recipe-rating .btn {
+        width: auto;
+        padding: 10px 15px;
+    }
 
 }
