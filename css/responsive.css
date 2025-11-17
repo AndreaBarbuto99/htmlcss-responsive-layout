@@ -30,6 +30,21 @@
         row-gap: 30px;
     }
 
+    .btn {
+        padding: 10px 50px;
+    }
+
+    .ads {
+        display: block;
+    }
+
+    .clearfix img {
+        float: left;
+        margin-right: 20px;
+    }
+
+    
+
 
 
 
