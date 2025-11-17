@@ -1,2 +1,37 @@
 /* Soluzione qui */
 
+@media screen and (min-width:768px) {
+
+    #topbar {
+        justify-content: flex-start;
+    }
+
+    main {
+        padding: 50px;
+    }
+
+    .recipe-name {
+        font-size: 30px;
+    }
+
+    .recipe-origin {
+        display: inline;
+    }
+
+    .quick-notes li {
+        margin: 0;
+        display: block;
+    }
+
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 70px;
+        row-gap: 30px;
+    }
+
+
+
+
+
+}
