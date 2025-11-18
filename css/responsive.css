@@ -1,6 +1,6 @@
 /* Soluzione qui */
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px) and (max-width:992px) {
 
     #topbar {
         justify-content: flex-start;
@@ -20,7 +20,6 @@
 
     .quick-notes li {
         margin: 0;
-        display: block;
     }
 
     .quick-notes ul {
@@ -47,6 +46,14 @@
 
 @media screen and (min-width:992px) {
 
+    header {
+        justify-content: flex-start !important;
+    }
+
+    .recipe-origin {
+        display: inline-block;
+    }
+
     .recipe-name {
         font-size: 40px;
     }
@@ -63,14 +70,14 @@
         width: 50%;
     }
 
-    .quick-notes ul {
-        display: grid;
-        row-gap: 15px;
+    li.blender, li.clock, li.pie, li.cost, li.pin{
+        margin: 15px 0;
     }
 
     .btn {
         display: flex;
         width: calc((100%/5) - (80px/4));
+        justify-content: center;
     }
 
     .btn .label {
@@ -97,9 +104,15 @@
         width: auto;
         padding: 10px 15px;
     }
+
+    .clearfix img {
+        float: left;
+        margin-right: 20px;
+    }
+
 }
 
-@media screen and (min-width:576px) {
+@media screen and (min-width:576px) and (max-width:768px) {
 
     .clearfix img {
         float: left;
